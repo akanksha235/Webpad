@@ -4,4 +4,5 @@ h1::before {counter-increment: section;
 content: "Section " counter(section) ".";}
 h2::before {counter-increment: subsection;
 content: counter(section) "." counter(subsection) ".";}
-div gradient {background: linear-gradient(to bottom right, red, pink)}
+#gradient {background: linear-gradient(to bottom right, red, pink, green)}
+#gradient2 {background:radial-gradient(red,pink,green)}
