@@ -25,3 +25,13 @@ li a {display: block;
         text-decoration:underline;}
 li a:hover {background-color: grey;
         color: white;}
+.dropdown {position: relative;
+            display: inline-block;}
+.dropdown-content {display: none;
+            position: absolute;
+            background-color: pink;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px 0px red;
+            padding: 12px 16px;
+            z-index: 1;}
+.dropdown:hover .dropdown-content {display: block;}
