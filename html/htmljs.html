@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<title>an interesting title goes here</title>
+</head>
+<body>
+  <h1>from the book</h1>
+  <h2>creating a alert and variables.</h2>
+  <script>
+  alert("Hello, World!") ;
+  var myText = "how are you?" ;
+  alert(myText) ;
+  </script>
+  <h2>all the variables used here goes here</h2>
+  <script>
+  </script>
+  <h2>functions</h2>
+  <script>
+  function myFunction() { alert("hello this is my third alert testing functions") ; }
+  myFunction() ;
+  /* this thing below i don't get */
+  function distance(speed, time) { var myDistance = speed * time ;
+   }
+  distance(50, 20) ;
+   alert(myDistance) ;
+</script>
+<h2>if statment</h2>
+<script>
+var safeToProceed = false ;
+if (safeToProceed) { alert("You Shall Pass") ; }
+else { alert("You Shall not Pass") ; }
+var speedLimit = 50;
+function amISpeeding(speed) { if (speed >= speedLimit) {alert("you are speeding, my friend") ; }
+else { alert ("nope you ain't speeding,speed up!!!")}
+}
+amISpeeding(64);
+</script>
+  <h1>Introduction</h1>
+  <h2>changing html by js</h2>
+  <p id="demo">hey this the actual html text</p>
+  <button type="button" onclick='document/coding/html/htmljs.getElementById("demo")innerHTML="this is modified text by js"'>hey click me!</button>
+
+</body>
+</html>
