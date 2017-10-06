@@ -36,6 +36,14 @@ else { alert ("nope you ain't speeding,speed up!!!")}
 }
 amISpeeding(64);
 </script>
+<script>
+var xpos = 300 ;
+var ypos = 400 ;
+function sendWarning(x, y) { if ((x < xpos) && (y < ypos)) { alert("Adjust The Position") ; } else { alert("Things are Fine") ; } } ;
+sendWarning(200, 500) ;
+sendWarning(200, 300) ;
+sendWarning(400, 500) ;
+</script>
   <h1>Introduction</h1>
   <h2>changing html by js</h2>
   <p id="demo">hey this the actual html text</p>
