@@ -39,11 +39,31 @@ amISpeeding(64);
 <script>
 var xpos = 300 ;
 var ypos = 400 ;
+var zpos = 450 ;
 function sendWarning(x, y) { if ((x < xpos) && (y < ypos)) { alert("Adjust The Position") ; } else { alert("Things are Fine") ; } } ;
 sendWarning(200, 500) ;
 sendWarning(200, 300) ;
 sendWarning(400, 500) ;
+function ifOnly(z) { if ( z < zpos) {alert("z is less people") ; } } ;
+var color = black ;
+switch (color) {
+  case "pink":
+    alert("pink color") ;
+    break;
+    case "blue":
+    alert("blue color") ;
+    break ;
+    case "yellow":
+    alert("yellow color") ;
+    break ;
+    case "black":
+    alert("black color") ;
+    break ;
+  default:
+    alert("no color whatsoever");
+}
 </script>
+
   <h1>Introduction</h1>
   <h2>changing html by js</h2>
   <p id="demo">hey this the actual html text</p>
